@@ -53,5 +53,7 @@ def using delete(array, element)
   if array[counter] == element
     array.delete(array[counter])
     counter += 1
+  end
+end
 end
 
