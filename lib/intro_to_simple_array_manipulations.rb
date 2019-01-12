@@ -8,9 +8,9 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  return using_pop.pop
+  array.pop
 end
 
 def pop_with_args(array)
-  return pop_with_args.pop
+  return array.pop
 end
