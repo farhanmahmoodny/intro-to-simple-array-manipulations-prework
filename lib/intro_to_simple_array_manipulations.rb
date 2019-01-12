@@ -55,7 +55,6 @@ def using_delete(array, string)
     counter += 1
   end
 end
-return array
 end
 
 
