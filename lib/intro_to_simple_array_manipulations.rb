@@ -49,7 +49,7 @@ end
 
 def using delete(array, element)
   counter = 0
-  while array[counter] < array.length
+  until array[counter] == array.length
   if array[counter] == element
     array.delete(array[counter])
     counter += 1
