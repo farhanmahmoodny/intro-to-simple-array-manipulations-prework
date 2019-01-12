@@ -47,7 +47,7 @@ def using_flatten(array)
   array.flatten
 end
 
-def using delete(array, stringg)
+def using delete(array, string)
   counter = 0
   until array[counter] == array.length
   if array[counter] == string
