@@ -54,7 +54,6 @@ def using delete(array, string)
     array.delete(array[counter])
     counter += 1
   end
-  return array
 end
 end
 
