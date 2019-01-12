@@ -55,5 +55,7 @@ def using delete(array, element)
     counter += 1
   end
 end
+  return array
+end
 
 
