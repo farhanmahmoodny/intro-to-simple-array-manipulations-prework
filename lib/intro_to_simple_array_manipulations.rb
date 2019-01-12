@@ -47,10 +47,10 @@ def using_flatten(array)
   array.flatten
 end
 
-def using delete(array, element)
+def using delete(array, stringg)
   counter = 0
   until array[counter] == array.length
-  if array[counter] == element
+  if array[counter] == string
     array.delete(array[counter])
     counter += 1
   end
